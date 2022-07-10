@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-width: 1200px;
+  --header-height: 64px;
+}
+
+.header {
+  width: var(--width);
+}
