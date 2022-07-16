@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "concurrently \"next dev\" \"cd studio && sanity start\"",
     "build": "echo 'Building Sanity to public/studio' && cd studio && sanity build ../public/studio -y && cd .. && next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "lerna bootstrap"
   },
   "dependencies": {
     "next": "latest",
@@ -17,6 +18,7 @@
     "@types/react-dom": "18.0.5",
     "autoprefixer": "^10.4.7",
     "concurrently": "^7.2.2",
+    "lerna": "^3.22.1",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.2",
     "typescript": "4.7.2"
