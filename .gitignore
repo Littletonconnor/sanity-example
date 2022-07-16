@@ -14,8 +14,8 @@ node_modules
 
 # production
 /build
-public/static
-dist
+public/studio
+studio/dist
 
 # misc
 .DS_Store
