@@ -14,7 +14,7 @@ node_modules
 
 # production
 /build
-public/studio/
+public/static
 dist
 
 # misc
