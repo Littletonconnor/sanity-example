@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"next dev\" \"cd studio && sanity start\"",
-    "build": "echo 'Building Sanity to public/studio' && cd studio && echo \"Printing Current Directory: $(pwd)\" && npm i && sanity build ../public -y && cd .. && next build",
+    "build": "echo 'Building Sanity to public/studio' && cd studio sanity build ../public/studio -y && cd .. && next build",
     "start": "next start"
   },
   "dependencies": {
