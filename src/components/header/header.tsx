@@ -2,7 +2,7 @@ function Header() {
   return (
     <div className="flex items-center mx-auto w-[var(--header-width)] h-[var(--header-height)]">
       <div className="flex flex-1 mr-auto font-bold">Logo</div>
-      <div className="flex flex-1">
+      <div className="flex">
         <ul className="flex text-base gap-5 text-gray-700 font-light">
           <li>Features</li>
           <li>Templates</li>

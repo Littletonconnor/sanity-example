@@ -7,10 +7,11 @@
     "postinstall": "lerna bootstrap"
   },
   "dependencies": {
+    "@sanity/cli": "^2.0.5",
+    "@sanity/client": "^3.3.3",
     "next": "latest",
     "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "@sanity/cli": "^2.0.5"
+    "react-dom": "18.1.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
